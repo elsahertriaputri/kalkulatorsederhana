@@ -66,6 +66,7 @@ def kalkulator():
             if ulangi == 'y':
                 continue
             elif ulangi == 'n':
+                print('Terima kasih telah menggunakan kalkulator sederhana!')
                 break
             else:
                 print('Error')
