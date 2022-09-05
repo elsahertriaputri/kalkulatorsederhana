@@ -1,26 +1,25 @@
-def kalkulator():
-
-        #membuat fungsi-fungsi untuk setiap operasi bilangan
-        def jumlah(bil1, bil2):
+#membuat fungsi-fungsi untuk setiap operasi bilangan
+def jumlah(bil1, bil2):
             penjumlahan = bil1 + bil2
             print('Hasil dari', bil1, '+', bil2, '=', penjumlahan)
             return penjumlahan
 
-        def kurang(bil1, bil2):
+def kurang(bil1, bil2):
             pengurangan = bil1 - bil2
             print('Hasil dari', bil1, '-', bil2, '=', pengurangan)
             return pengurangan
 
-        def kali(bil1, bil2):
+def kali(bil1, bil2):
             perkalian = bil1 * bil2
             print('Hasil dari', bil1, '*', bil2, '=', perkalian)
             return perkalian
 
-        def bagi(bil1, bil2):
+def bagi(bil1, bil2):
             pembagian = bil1 / bil2
             print('Hasil dari', bil1, '/', bil2, '=', pembagian)
             return pembagian
 
+def kalkulator():
         #perulangan untuk meminta pengguna memasukan ketentuan perhitungan
         while True:
 
